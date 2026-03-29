@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вскрытие замков Киев | Мастер Алексей - 24/7</title>
+    <meta name="description"
+        content="Профессиональное вскрытие замков дверей, автомобилей и сейфов в Киеве. Мастер Алексей — быстро, качественно, без повреждений.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Alex<span>Master</span></div>
+            <nav>
+                <a href="#services">Услуги</a>
+                <a href="#about">О мастере</a>
+                <a href="#contact" class="btn-primary">Связаться</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Экстренное вскрытие <br>замков в <span>Киеве</span></h1>
+                <p>Мастер Алексей: вскрытие дверей, автомобилей, сейфов и подбор ключей. Работаю без повреждений 24/7.
+                </p>
+                <div class="cta-group">
+                    <a href="tel:09991222457" class="btn-phone"><i class="fas fa-phone"></i> 099 912 22 457</a>
+                    <a href="https://t.me/pythonbottestsrhi" target="_blank" class="btn-tg"><i
+                            class="fab fa-telegram"></i> Telegram</a>
+                </div>
+                <div class="hero-labels">
+                    <span><i class="fas fa-clock"></i> Приезд за 20 мин</span>
+                    <span><i class="fas fa-shield-alt"></i> Официальная гарантия</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="{{ url_for('static', filename='hero.png') }}" alt="Вскрытие замков Киев">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши Услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-door-open"></i></div>
+                    <h3>Вскрытие дверей</h3>
+                    <p>Любые типы дверных замков: цилиндровые, сувальдные, кодовые. Без повреждения полотна.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>Вскрытие авто</h3>
+                    <p>Откроем машину любой марки. Без царапин и повреждений лакокрасочного покрытия.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-key"></i></div>
+                    <h3>Изготовление ключей</h3>
+                    <p>Подбор и копирование ключей любой сложности, прошивка чип-ключей для авто.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Замена и ремонт</h3>
+                    <p>Установка новых замков, ремонт механизмов после попытки взлома или поломки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-flex">
+                <div class="about-content">
+                    <h2 class="section-title">О мастере</h2>
+                    <p>Меня зовут <strong>Алексей</strong>, я — профессиональный мастер по замкам с многолетним стажем в
+                        Киеве. Я понимаю, как важно быстро и аккуратно решить проблему, когда замок не открывается.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Работаю со всеми районами Киева</li>
+                        <li><i class="fas fa-check-circle"></i> Использую профессиональный инструмент</li>
+                        <li><i class="fas fa-check-circle"></i> Оплата по факту выполненной работы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Срочный вызов мастера</h2>
+                    <p>Работаю круглосуточно. Звоните прямо сейчас или пишите в мессенджеры.</p>
+                </div>
+                <div class="footer-cta">
+                    <a href="tel:09991222457" class="btn-footer-phone">099 912 22 457</a>
+                    <a href="https://t.me/pythonbottestsrhi" class="btn-footer-tg">@pythonbottestsrhi</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Алексей - Мастер по замкам в Киеве. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
